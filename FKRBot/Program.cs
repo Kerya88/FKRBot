@@ -14,7 +14,7 @@ namespace FKRBot
     {
         private static TelegramBotClient _botClient;
         private static EzhkhService _ezhkhService;
-        private static readonly string _token = "8097191478:AAFzMcIQFSXye3Eky6mD81DfGMQkaeLi9Xs"; // Укажите токен бота
+        private static readonly string _token = "7673153126:AAFmi3cDC8dvNy6rtLYyz8brACUCqfBNXxw"; // Укажите токен бота
         private static readonly Regex FioRegex = new(@"^[А-ЯЁ]{1}[а-яё]{1,}\s[А-ЯЁ]{1}[а-яё]{1,}\s[А-ЯЁ]{1}[а-яё]{1,}$");
 
         public static void Main()
